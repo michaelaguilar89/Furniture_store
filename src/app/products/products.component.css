@@ -1,0 +1,16 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 28%;
+    height: 250px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    @media only screen and (min-width: 860px) {
+        width: 25%;
+    }
+}

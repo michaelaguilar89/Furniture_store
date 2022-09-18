@@ -12,6 +12,10 @@ import { FooterComponent } from './footer/footer.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon'; 
+import {MatCardModule} from '@angular/material/card';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +26,8 @@ import {MatIconModule} from '@angular/material/icon';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,MatToolbarModule,MatButtonModule,MatIconModule
+    BrowserAnimationsModule,MatToolbarModule,
+    MatButtonModule,MatIconModule,MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
