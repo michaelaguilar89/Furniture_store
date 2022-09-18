@@ -4,15 +4,16 @@
     <mat-card class="card" *ngFor="let p of data">
         <mat-card-header>
             <mat-card-title>
-                <h2>
+                <h3>
                     <p>{{p.name}}</p>
-                </h2>
+                </h3>
 
             </mat-card-title>
 
         </mat-card-header>
-        <img mat-card-image [src]=p.image [alt]=p.name>
         <mat-card-content>
+            <img mat-card-image class="img" [src]=p.image [alt]=p.name>
+
             <p>
                 {{p.description}}
             </p>

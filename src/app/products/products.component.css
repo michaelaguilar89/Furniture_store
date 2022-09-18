@@ -5,12 +5,21 @@
 }
 
 .card {
-    width: 28%;
-    height: 250px;
+    width: 350px;
+    height: 400px;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
     @media only screen and (min-width: 860px) {
-        width: 25%;
+        width: 250px;
     }
+}
+
+.img {
+    border-color: blueviolet;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 260px;
+    width: 300px;
+    margin: 5px 5px;
 }
