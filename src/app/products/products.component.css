@@ -5,22 +5,48 @@
 }
 
 .card {
-    width: 350px;
-    height: 400px;
-    margin-bottom: 20px;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 15px;
     margin-left: 10px;
     margin-right: 10px;
-    @media only screen and (min-width: 860px) {
-        width: 250px;
-    }
-    background-color:azure
+    background-color: azure
+}
+
+.avatar {
+    margin-bottom: 3px;
 }
 
 .img {
-    border-color: blueviolet;
-    border-width: 3px;
-    border-radius: 5px;
-    height: 220px;
-    width: 250px;
-    margin-left: 15px;
+    padding-top: 40px;
+    margin-left: 5px;
+    width: 95%;
+    height: 250px;
+}
+
+.header,
+.content,
+.action {
+    border-style: none;
+}
+
+.header {
+    text-align: justify
+}
+
+.content {
+    width: 100%;
+    min-height: 70%;
+    image-orientation: flip;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+}
+
+.button {
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
